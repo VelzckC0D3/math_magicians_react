@@ -1,13 +1,11 @@
 import './Calculator.css';
 
-function Calculator() {
-  return (
-    <div className="calculatorCont">
-      <h2 className="calculatorTitle">Calculator</h2>
-      <ChildComponent />
-    </div>
-  );
-}
+const Calculator = () => (
+  <div className="calculatorCont">
+    <h2 className="calculatorTitle">Calculator</h2>
+    <ChildComponent />
+  </div>
+);
 
 function ChildComponent() {
   return (
