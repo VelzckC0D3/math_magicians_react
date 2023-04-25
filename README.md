@@ -71,7 +71,7 @@ Introducing React APP featuring my first time using `React`.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- _You can visit the live demo [here](https://velzck-magicians.netlify.app/)_
+- _You can visit the live demo [here](https://velzck-magician.netlify.app/)_
  
 
 
