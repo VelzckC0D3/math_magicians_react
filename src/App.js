@@ -26,6 +26,4 @@ function App() {
   );
 }
 
-console.log('ole');
-
 export default App;
