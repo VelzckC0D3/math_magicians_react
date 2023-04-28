@@ -1,40 +1,56 @@
 import './Calculator.css';
+import { useState } from 'react';
+import calculate from '../logic/calculate';
 
 const Calculator = () => (
   <div className="calculatorCont">
     <h2 className="calculatorTitle">Calculator</h2>
-    <ChildComponent />
+    <Example />
   </div>
 );
 
-function ChildComponent() {
+function Example() {
+  const btnValues = [
+    'AC', '+/-', '%', '÷',
+    '7', '8', '9', 'x',
+    '4', '5', '6', '-',
+    '1', '2', '3', '+',
+    '0', '.', '=',
+  ];
+
+  const [result, setResult] = useState({
+    total: 0,
+    operation: null,
+    next: null,
+  });
+
+  const handleButtonClick = (buttonName) => {
+    setResult((prevState) => {
+      const newResult = calculate(prevState, buttonName.target.textContent);
+      return { ...prevState, ...newResult };
+    });
+  };
+
   return (
     <div className="calculator">
-      <input className="inputCont" type="text" id="myInput" name="name" pattern="[0-9+\-*/(). ]+" />
-      <div className="buttons">
-        <input className="calculatorButton mathButtonH" type="button" value="AC" />
-        <input className="calculatorButton mathButtonH" type="button" value="+/-" />
-        <input className="calculatorButton mathButtonH" type="button" value="%" />
-        <input className="calculatorButton mathButtonV" type="button" value="÷" />
-        <br />
-        <input className="calculatorButton" type="button" value="7" />
-        <input className="calculatorButton" type="button" value="8" />
-        <input className="calculatorButton" type="button" value="9" />
-        <input className="calculatorButton mathButtonV" type="button" value="x" />
-        <br />
-        <input className="calculatorButton" type="button" value="4" />
-        <input className="calculatorButton" type="button" value="5" />
-        <input className="calculatorButton" type="button" value="6" />
-        <input className="calculatorButton mathButtonV" type="button" value="-" />
-        <br />
-        <input className="calculatorButton" type="button" value="1" />
-        <input className="calculatorButton" type="button" value="2" />
-        <input className="calculatorButton" type="button" value="3" />
-        <input className="calculatorButton mathButtonV" type="button" value="+" />
-        <br />
-        <input className="calculatorButton zero" type="button" value="0" />
-        <input className="calculatorButton" type="button" value="." />
-        <input className="calculatorButton mathButtonV" type="button" value="=" />
+      <div className="calc-wrapper">
+        <div className="inputCont">
+          {result.total}
+          {result.operation}
+          {result.next}
+        </div>
+        <div className="rows">
+          {btnValues.map((value) => (
+            <button
+              type="button"
+              className="calculatorButton"
+              onClick={handleButtonClick}
+              key={value}
+            >
+              {value}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

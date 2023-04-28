@@ -43,6 +43,9 @@
   border-radius: 13px;
   border: 1px solid black;
   box-shadow: inset 2px 2px 6px 0 rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .calculatorButton {
@@ -72,23 +75,31 @@
   box-shadow: 3px 3px 6px -2px rgba(255, 255, 255, 0);
 }
 
-.mathButtonH {
-  background-color: rgb(199, 199, 199);
-}
-
-.mathButtonH:active {
-  background-color: #afafaf;
-}
-
-.mathButtonV {
+.calculatorButton:nth-child(4),
+.calculatorButton:nth-child(8),
+.calculatorButton:nth-child(12),
+.calculatorButton:nth-child(16),
+.calculatorButton:nth-child(19) {
   background-color: rgb(255, 132, 0);
 }
 
-.mathButtonV:active {
-  background-color: rgb(179, 93, 0);
-  transition: all 50ms ease-in-out;
+.calculatorButton:nth-child(-n+3) {
+  background-color: rgb(199, 199, 199);
 }
 
-.zero {
+.calculatorButton:nth-child(17) {
   width: 10.2rem;
+}
+
+.calculatorButton:nth-child(-n+3):active {
+  background-color: #afafaf;
+}
+
+.calculatorButton:nth-child(4):active,
+.calculatorButton:nth-child(8):active,
+.calculatorButton:nth-child(12):active,
+.calculatorButton:nth-child(16):active,
+.calculatorButton:nth-child(19):active {
+  background-color: rgb(179, 93, 0);
+  transition: all 50ms ease-in-out;
 }
