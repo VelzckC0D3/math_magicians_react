@@ -42,7 +42,7 @@
   margin: 0 0 1rem;
   border-radius: 13px;
   border: 1px solid black;
-  box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 2px 2px 6px 0 rgba(0, 0, 0, 0.75);
 }
 
 .calculatorButton {
@@ -59,9 +59,9 @@
 
 .calculatorButton:nth-child(1),
 .calculatorButton:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    float: left;
+  display: flex;
+  justify-content: center;
+  float: left;
 }
 
 .calculatorButton:active {
