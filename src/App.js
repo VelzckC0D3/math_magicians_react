@@ -1,5 +1,6 @@
 import './App.css';
 import Calculator from './components/Calculator';
+import Quotes from './components/Quotes';
 
 const App = () => (
   <>
@@ -7,6 +8,7 @@ const App = () => (
       <h1>Velzck&#39;s Math Magicians</h1>
     </div>
     <Calculator />
+    <Quotes />
   </>
 );
 

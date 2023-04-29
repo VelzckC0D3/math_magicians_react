@@ -5,11 +5,11 @@ import calculate from '../logic/calculate';
 const Calculator = () => (
   <div className="calculatorCont">
     <h2 className="calculatorTitle">Calculator</h2>
-    <Example />
+    <ChildElement />
   </div>
 );
 
-function Example() {
+function ChildElement() {
   const btnValues = [
     'AC', '+/-', '%', '÷',
     '7', '8', '9', 'x',
