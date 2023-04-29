@@ -5,7 +5,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(360deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
   background-size: cover;
-  height: 120vh;
+  height: 150vh;
+  overflow-x: hidden;
 
   /*   overflow-y: hidden; */
 }
