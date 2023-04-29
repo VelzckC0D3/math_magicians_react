@@ -1,0 +1,40 @@
+.quotesCont {
+  margin: 0;
+  width: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 28.5rem;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 13px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: -8px 10px 26px -8px rgba(0, 0, 0, 0.75);
+}
+
+.quotesTitle {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0.7rem 0;
+  color: black;
+}
+
+.span {
+  font-size: 1.1rem;
+  -webkit-text-stroke: 0.75px;
+}
+
+.quotes {
+  color: white;
+  margin: 0;
+  padding: 0 1rem 0;
+}
+
+.author {
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+}
