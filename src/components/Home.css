@@ -1,0 +1,32 @@
+.homeCont {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  margin: 0;
+  border: 4px solid black;
+  border-radius: 13px;
+  background-color: white;
+  box-shadow: -8px 10px 26px -8px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.homeTitle {
+  color: white;
+  padding: 1rem 0;
+  width: 22rem;
+  background-color: black;
+  margin: 0;
+}
+
+.homeText {
+  padding: 1rem;
+  margin: 0;
+  background-color: rgb(227, 227, 227);
+}
+
+.homeText:nth-child(3) {
+  margin: 0.5rem 0;
+}

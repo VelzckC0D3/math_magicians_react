@@ -2,3 +2,9 @@
   text-align: center;
   width: 100vw;
 }
+
+*:link,
+*:visited {
+  color: white;
+  text-decoration: none;
+}
