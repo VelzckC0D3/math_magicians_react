@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Home from './Home.js';
+import Home from './Home';
 
 describe('must show content when the user navigates to the home page ', () => {
   test('when navigates to home page it displays the title ', () => {
