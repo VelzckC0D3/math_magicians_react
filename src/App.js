@@ -13,9 +13,6 @@ function App() {
     <Router>
       <>
         <Navbar />
-        <div className="App">
-          <h1>Velzck&#39;s Math Magicians</h1>
-        </div>
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/calculator" Component={Calculator} />
