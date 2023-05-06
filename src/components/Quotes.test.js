@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
-import Quotes from './quotes';
+import Quotes from './Quotes.js';
 
 describe('Quotes', () => {
   test('displays loading message while fetching data', async () => {

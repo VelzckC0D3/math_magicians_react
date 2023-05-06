@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Calculator from './calculator';
+import Calculator from './Calculator.js';
 
 describe('Calculator', () => {
   test('renders correctly', () => {

@@ -2,7 +2,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import * as router from 'react-router';
 import { MemoryRouter } from 'react-router-dom';
 
-import Navbar from './Navbar';
+import Navbar from './Navbar.js';
 
 const navigate = jest.fn();
 
