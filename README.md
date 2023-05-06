@@ -14,7 +14,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Author](#author)
 - [🔭 Features](#future-features)
@@ -27,35 +26,33 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Math Magicians] `ES6` `React` `API` <a name="about-project"></a>
+![image](https://user-images.githubusercontent.com/92229666/236641515-756868d5-643e-4784-b7fd-780d2a926d3a.png)
 
-Introducing React APP featuring my first time using `React`.
+Math Magicians is a React-based web application designed to help users perform basic mathematical operations, such as addition, subtraction, multiplication, and division. The app is built with a focus on interactivity, user-friendliness, reliability, and efficiency. Additionally, the app has been thoroughly tested using the React Testing Library to ensure that it delivers a seamless user experience. Whether you're a student looking to sharpen your math skills or just need to perform a quick calculation, Math Magicians has got you covered.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="">to-be-defined</a></li>
-    <li><a href="">to-be-defined</a></li>
-    <li><a href="">to-be-defined</a></li>
-    <li><a href="">to-be-defined</a></li>
-    <li><a href="">to-be-defined</a></li>
-  </ul>
-</details>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+      <li><a href="https://react.dev/">React</a></li>
+      <li><a href="https://testing-library.com/docs/react-testing-library/intro/">React-Testing-Library</a></li>
+      <li><a href="https://reactrouter.com/en/main">React-Router</a></li>
+      <li><a href="https://www.w3schools.com/js/js_es6.asp">ES6</a></li>
+    </ul>
+  </details>
+  
+ 
+  
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>to-be-defined</li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a>to-be-defined</a></li>
+   <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">LocalStorage</a></li>
   </ul>
 </details>
 
@@ -63,13 +60,18 @@ Introducing React APP featuring my first time using `React`.
 
 ### Key Features <a name="key-features"></a>
 
-- **[to-be-defined]**
+  - **[Interactive]**
+  - **[User-Friendly]**
+  - **[Reliable]**
+  - **[Efficient]**
+  - **[Tested]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & preview <a name="live-demo"></a>
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/92229666/236641659-d7b451dc-907b-4926-9669-c8abcd050509.gif)
 
 - _You can visit the live demo [here](https://velzck-magician.netlify.app/)_
  
@@ -141,10 +143,10 @@ The website will be deployed
 
 ## 🔭 Features <a name="future-features"></a>
 
-- [ ] **[Shows correct functionality]**
-- [ ] **[WebPack Correctly Used]**
-- [ ] **[ES6 Optimized]**
-- [ ] **[API]**
+- [ ] **[Sleek and intuitive user interface]**
+- [ ] **[Supports basic arithmetic operations (addition, subtraction, multiplication, division)]**
+- [ ] **[Real-time calculation and instant results]**
+- [ ] **[Built with React and optimized with ES6]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
