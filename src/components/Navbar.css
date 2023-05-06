@@ -1,0 +1,30 @@
+.navContainer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navTitle {
+  color: white;
+  margin-left: 1rem;
+}
+
+.navUl {
+  list-style: none;
+  margin: 0 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  box-shadow: 0 -65px 45px 57px rgba(0, 0, 0, 0.75);
+}
+
+.active {
+  color: rgb(136, 136, 136);
+  -webkit-text-stroke: 0.5px;
+}
