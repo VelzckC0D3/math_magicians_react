@@ -1,4 +1,4 @@
-import './Quotes.css';
+import '../../style/Quotes.css';
 import React, { useState, useEffect } from 'react';
 
 const Quotes = () => {

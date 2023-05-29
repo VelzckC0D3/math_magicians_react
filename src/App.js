@@ -3,10 +3,10 @@ import React from 'react';
 import {
   BrowserRouter as Router, Routes, Route,
 } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import Quotes from './components/Quotes';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Calculator from './components/navigation/Calculator';
+import Quotes from './components/navigation/Quotes';
+import Navbar from './components/navigation/Navbar';
+import Home from './components/navigation/Home';
 
 function App() {
   return (

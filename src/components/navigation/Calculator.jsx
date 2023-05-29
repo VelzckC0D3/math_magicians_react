@@ -1,23 +1,9 @@
-import './Calculator.css';
-import { useState } from 'react';
+/* eslint-disable react/prop-types */
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import '../../style/Calculator.css';
 
-const Calculator = () => (
-  <div className="calculatorCont">
-    <h2 className="calculatorTitle">Calculator</h2>
-    <ChildElement />
-  </div>
-);
-
-function ChildElement() {
-  const btnValues = [
-    'AC', '+/-', '%', '÷',
-    '7', '8', '9', 'x',
-    '4', '5', '6', '-',
-    '1', '2', '3', '+',
-    '0', '.', '=',
-  ];
-
+const Calculator = () => {
   const [result, setResult] = useState({
     total: 0,
     operation: null,
@@ -31,6 +17,27 @@ function ChildElement() {
     });
   };
 
+  const btnValues = [
+    'AC', '+/-', '%', '÷',
+    '7', '8', '9', 'x',
+    '4', '5', '6', '-',
+    '1', '2', '3', '+',
+    '0', '.', '=',
+  ];
+
+  return (
+    <div className="calculatorCont">
+      <h2 className="calculatorTitle">Calculator</h2>
+      <ChildElement
+        result={result}
+        handleButtonClick={handleButtonClick}
+        btnValues={btnValues}
+      />
+    </div>
+  );
+};
+
+function ChildElement({ result, handleButtonClick, btnValues }) {
   return (
     <div className="calculator">
       <div className="calc-wrapper">

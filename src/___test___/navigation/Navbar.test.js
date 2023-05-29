@@ -1,8 +1,9 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import * as router from 'react-router';
 import { MemoryRouter } from 'react-router-dom';
+import '@testing-library/jest-dom/extend-expect';
 
-import Navbar from './Navbar';
+import Navbar from '../../components/navigation/Navbar';
 
 const navigate = jest.fn();
 

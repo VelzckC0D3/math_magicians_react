@@ -1,4 +1,4 @@
-import calculate from './calculate';
+import calculate from '../../components/logic/calculate';
 
 describe('calculate function', () => {
   it('should return an object with null values when buttonName is AC', () => {

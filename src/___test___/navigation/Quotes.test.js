@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
-import Quotes from './Quotes';
+import '@testing-library/jest-dom/extend-expect';
+import Quotes from '../../components/navigation/Quotes';
 
 describe('Quotes', () => {
   test('displays loading message while fetching data', async () => {
