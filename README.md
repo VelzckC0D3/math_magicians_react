@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
-![onlyText](https://user-images.githubusercontent.com/92229666/221316081-fb9e0b88-a571-4414-baa7-76d8d411c181.gif)
+<div align="center">
+  <img src="https://github.com/VelzckC0D3/SQL_Database/assets/92229666/64c8d8a7-b625-4a25-847a-ea02e00df2f4" alt="Sin título-1">
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -71,8 +73,11 @@ Math Magicians is a React-based web application designed to help users perform b
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo & preview <a name="live-demo"></a>
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/92229666/236641659-d7b451dc-907b-4926-9669-c8abcd050509.gif)
+<div align="center">
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/92229666/236641659-d7b451dc-907b-4926-9669-c8abcd050509.gif)
+</div>
+  
 - _You can visit the live demo [here](https://velzck-magician.netlify.app/)_
  
 
