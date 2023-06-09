@@ -18,13 +18,6 @@ const Home = () => (
       BrowserRouter, Route, and Switch components, which provide exclusive
       routing and ensure a smooth user experience.
     </p>
-    <p className="homeText">
-      Overall, the Math Magicians application is a powerful example of the
-      capabilities of React and the React Router DOM library. By providing an
-      intuitive user interface and a powerful routing system, the application
-      demonstrates how React can be used to build complex and engaging
-      applications.
-    </p>
   </div>
 );
 

@@ -9,6 +9,7 @@
 .navTitle {
   color: white;
   margin-left: 1rem;
+  cursor: default;
 }
 
 .navUl {
