@@ -28,7 +28,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Math Magicians] `ES6` `React` `API` <a name="about-project"></a>
-![image](https://user-images.githubusercontent.com/92229666/236641515-756868d5-643e-4784-b7fd-780d2a926d3a.png)
+![magician-mockup](https://github.com/VelzckC0D3/math_magicians_react/assets/92229666/b3799794-0ecb-4a09-85c3-3fde7b3d19a5)
 
 Math Magicians is a React-based web application designed to help users perform basic mathematical operations, such as addition, subtraction, multiplication, and division. The app is built with a focus on interactivity, user-friendliness, reliability, and efficiency. Additionally, the app has been thoroughly tested using the React Testing Library to ensure that it delivers a seamless user experience. Whether you're a student looking to sharpen your math skills or just need to perform a quick calculation, Math Magicians has got you covered.
 
